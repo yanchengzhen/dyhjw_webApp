@@ -1,0 +1,56 @@
+body {
+    background-color: #f0f5f9;
+}
+.jieshao{
+    background-color: #fff;
+    padding: 0.26rem 0.4rem;
+    margin-bottom: 0.15rem;
+    border-bottom: 1px solid #c5c5c5;
+}
+.jieshao_header{
+    height: 1.33rem;
+    margin-bottom: .3rem;
+}
+.jieshao_header>img{
+    width: 1.33rem;
+    height: 1.33rem;
+    border: 1px solid #c5c5c5;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.jieshao_header>div{
+    margin-left: 0.28rem;
+}
+.jieshao_name{
+    font-size: 0.35rem;
+    color: #000;
+    font-weight: bold;
+}
+.jieshao_btn{
+    width: 1.07rem;
+    height: 0.5rem;
+    line-height: 0.5rem;
+    text-align: center;
+    border: 1px solid #2984ed;
+    border-radius: 0.12rem;
+    font-size: 0.28rem;
+    color: #2984ed;
+    box-sizing: border-box;
+    margin-left: 0.34rem;
+}
+.fensi{
+    width: 4.35rem;
+    text-align: center;
+    font-size: 0.28rem;
+    margin-top: 0.1rem;
+    color: #333;
+}
+.jieshao_description{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    -moz-box-orient: vertical;
+    font-size: 0.31rem;
+}

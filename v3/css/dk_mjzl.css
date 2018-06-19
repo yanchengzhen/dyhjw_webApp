@@ -1,0 +1,68 @@
+.news_change_b {
+    margin-top: 0;
+    box-sizing: border-box;
+    height: calc(100% - 3.272rem);
+}
+.news_change_t_box{
+    height: 0.85rem;
+}
+.news_change_t {
+    height: 0.85rem;
+    padding: 0 0.25rem;
+    background-color: #efefef;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.news_change_t li {
+    height: 0.85rem;
+    width: 33.33%;
+}
+
+.news_change_t li.on {
+    background-color: #2984ed;
+}
+
+.news_change_t li a {
+    line-height: 0.85rem;
+}
+
+/*专栏循环块样式*/
+.mjzl_item{
+    padding: 0.32rem 0.27rem;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+}
+.mjzl_item_img{
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 50%;
+    border: 1px solid #eaeaea;
+    margin-right: 0.2rem;
+}
+.mjzl_item_text_box{
+    position: relative;
+    width: 8.2rem;
+    height: 0.85rem;
+}
+.mjzl_item_text_title{
+    font-size: 0.4rem;
+    color: #000;
+    font-weight: bold;
+}
+.mjzl_item_text{
+    position: absolute;
+    bottom: -0.2rem;
+    width: 8.2rem;
+    font-size: .2813rem;
+    color: #808080;
+    text-align: center;
+}
+.card_level{
+    position: absolute;
+    top: 0.2rem;
+    left: 0.2rem;
+    width: 0.35rem;
+    height: auto;
+}

@@ -1,0 +1,48 @@
+.news_change_b {
+  margin-top: 0;
+  box-sizing: border-box;
+  height: calc(100% - 3.272rem);
+}
+.news_change_t_box{
+  height: 0.85rem;
+  overflow: hidden;
+}
+.news_change_t{
+  height: 1.1rem;
+  background-color: #efefef;
+  width: 100%;
+  padding: 0;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.news_change_t>ul{
+  height: 0.85rem;
+  overflow: hidden;
+}
+.news_change_t li{
+  width: 2.5rem;
+  height: 0.85rem;
+}
+.news_change_t li.on {
+  background-color: #2984ed;
+}
+
+.news_change_t li a {
+  line-height: 0.85rem;
+}
+/*数据盒子*/
+.news_li_list{
+  margin: 0;
+  padding: .25rem 0.26rem;
+}
+.data_text{
+  font-size: 0.4rem;
+  color: #333;
+  font-weight: bold;
+}
+.news_demo1 img.data_level{
+  width: 1.14rem;
+  height: 0.36rem;
+  margin-top: 0.1rem;
+}
+

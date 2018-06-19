@@ -1,0 +1,130 @@
+body{
+  background-color: #dfe9f2;
+}
+.news_li_box ,.finance_audition{
+  margin-top: 0.16rem;
+}
+.swiper-wrapper{
+  height: auto;
+}
+.swiper-slide{
+  height: auto;
+}
+.college_log{
+  padding-top: 0.1rem;
+  background-color: #fff;
+}
+/*财经视听*/
+.finance_audition{
+  background-color: #fff;
+  padding-bottom: 0.3rem;
+}
+.title{
+  padding: 0.28rem 0.27rem;
+}
+.title h2{
+  font-size: 0.43rem;
+  font-weight: bold;
+  color: #333;
+  padding-left: 0.58rem;
+  background: url("../image/gold_college/icon_video.png") no-repeat 0;
+  background-size: 0.43rem 0.43rem;
+}
+.swiper-list .swiper-slide{
+  width: 7.73rem;
+  height: 5.5rem;
+  padding-left: 0.27rem;
+}
+.swiper-list .audition_img{
+  width: 7.73rem;
+  height: 4.46rem;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+}
+.audition_img img{
+  width: 7.73rem;
+  height: 4.46rem;
+}
+.audition_img .mask{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../image/gold_college/icon_video02.png") no-repeat;
+  background-size: cover;
+}
+.audition_text h3{
+  font-size: 0.39rem;
+  color: #333;
+  line-height: 1.5;
+  margin-top: 0.05rem;
+}
+.audition_text .time_box{
+  font-size: .2813rem;
+  color: #808080;
+  line-height:1.5;
+}
+.text_time{
+  float: right;
+}
+.text_hits{
+  float: right;
+  margin-right: 0.4rem;
+  padding-left: 0.33rem;
+  background: url("../image/gold_college/icon_video01.png") no-repeat 0 0.085rem;
+  background-size: 0.28rem 0.28rem;
+}
+.finance_audition .list a{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.swiper-container{
+  background-color: #fff;
+}
+.main_col{
+  border: 0;
+}
+/*新闻聚焦*/
+.news_li_box .title{
+  padding-bottom: 0;
+}
+.news_li_box .title h2{
+  background: url("../image/gold_college/icon_news.png") no-repeat 0;
+  background-size: 0.43rem 0.43rem;
+}
+/*新闻切换样式修改*/
+.news_change_t li a{
+  font-size: 0.43rem;
+  color: #000;
+}
+.news_change_t_box{
+  padding-top: 0.26rem;
+}
+.news_change_t{
+  background-color: #efefef;
+  height: auto;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+  overflow: hidden;
+  padding: 0 0.3rem;
+  box-sizing: border-box;
+}
+.news_change_t li{
+  width: 25%;
+}
+.news_slide_box,.tempWrap,.news_list_b{
+  height: auto;
+}
+.news_list_cg .view_more {
+  color: #666666;
+  padding: 0;
+}
+.news_change_t li.on {
+  background-color: #2984ed;
+}

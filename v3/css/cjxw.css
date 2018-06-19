@@ -1,0 +1,28 @@
+.news_change_b {
+    margin-top: 0;
+    box-sizing: border-box;
+    height: calc(100% - 3.272rem);
+}
+.news_change_t_box{
+    height: 0.85rem;
+}
+.news_change_t {
+    height: 0.85rem;
+    padding: 0 0.25rem;
+    background-color: #efefef;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.news_change_t li {
+    height: 0.85rem;
+}
+
+.news_change_t li.on {
+    background-color: #2984ed;
+}
+
+.news_change_t li a {
+    line-height: 0.85rem;
+}

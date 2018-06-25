@@ -1,0 +1,16 @@
+$(function(){
+  if(sessionStorage.gzname=="gz"){
+    $("#focus").addClass("active").html("已关注");
+  }
+  if(sessionStorage.dzname=="dz"){
+    $("#like").addClass("active").html("已点赞");
+  }
+  $("#focus").click(function(){
+    $(this).addClass("active").html("已关注");
+    sessionStorage.gzname="gz";
+  });
+  $("#like").click(function(){
+    $(this).addClass("active").html("已点赞");
+    sessionStorage.dzname="dz";
+  });
+});

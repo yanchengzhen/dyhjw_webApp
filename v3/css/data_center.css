@@ -1,7 +1,7 @@
 .news_change_b {
   margin-top: 0;
   box-sizing: border-box;
-  height: calc(100% - 3.272rem);
+  height: calc(100% - 2.05rem);
 }
 .news_change_t_box{
   height: 0.85rem;
@@ -23,10 +23,6 @@
   width: 2.5rem;
   height: 0.85rem;
 }
-.news_change_t li.on {
-  background-color: #2984ed;
-}
-
 .news_change_t li a {
   line-height: 0.85rem;
 }

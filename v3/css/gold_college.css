@@ -73,7 +73,7 @@ body{
   float: right;
   margin-right: 0.4rem;
   padding-left: 0.33rem;
-  background: url("../image/gold_college/icon_video01.png") no-repeat 0 0.085rem;
+  background: url("../image/gold_college/icon_video01.png") no-repeat 0 0.05rem;
   background-size: 0.28rem 0.28rem;
 }
 .finance_audition .list a{
@@ -100,7 +100,6 @@ body{
 }
 /*新闻切换样式修改*/
 .news_change_t li a{
-  font-size: 0.43rem;
   color: #000;
 }
 .news_change_t_box{
@@ -126,5 +125,5 @@ body{
   padding: 0;
 }
 .news_change_t li.on {
-  background-color: #2984ed;
+  border-bottom: 2px solid #289eec;
 }

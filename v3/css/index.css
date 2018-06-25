@@ -2,6 +2,11 @@
 body .huadong .bg{background:none; position:fixed; top:1.2222rem; right:0;}
 body .huadong .bg span{-webkit-transform:rotate(180deg);transform:rotate(180deg);}
 
+.side_menu_btn{
+    background: url(../image/men_ico.png) no-repeat center center;
+    background-size: 100% 72%;
+}
+
 /* 头条 */
 /*.huadong_box .huadong{position: absolute;}*/
 body{background-color:#f0f5f9;}
@@ -25,9 +30,7 @@ body{background-color:#f0f5f9;}
 #mainTabContent2{display: none;box-sizing: border-box;min-height: 3.9rem;padding-bottom: 0.14rem;}
 .mainTabContent2{background-color: #fff;padding:0 0.9rem;}
 .mainTab2Detail{min-height: 1.88rem;box-sizing: border-box;padding: 0.1rem 0 0.34rem 0;font-size: 0.31rem;position: relative;}
-.mainTab2Detail>div{min-height: 1rem;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;
-    -moz-box-orient: vertical;
-}
+.mainTab2Detail>div{min-height: 1rem;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;-moz-box-orient: vertical;}
 .mainTab2Detail div.showDetailAll{-webkit-line-clamp:20;}
 .mainTab2DetailIcon{position: absolute;bottom: 0.4rem;right: -0.1rem;}
 .mainTab2DetailIconRotate{transform:rotate(180deg)}

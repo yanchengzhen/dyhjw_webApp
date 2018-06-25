@@ -38,7 +38,7 @@ img{display:block;}
 /*设置图片延迟加载时的默认显示图片*/
 img.lazy{background:url(../image/no_img.svg) no-repeat center center #F0F5F9; background-size:100% auto; border:0;}
 /* 通用下拉 */
-.top_xl{position:fixed;left:0;right:0;top: 1.1875rem;line-height: 1.2222rem;background-color:#FFF;opacity:.99;z-index:1999;display:none; bottom:0;}
+.top_xl{position:fixed;left:0;right:0;top: 1.2222rem;line-height: 1.2222rem;background-color:#FFF;opacity:.99;z-index:1999;display:none; bottom:0;}
 .top_xl .pdh{background-color:#FFF; padding-bottom:1rem;}
 .top_xl .title{font-size:.4687rem;text-align:left;line-height:1.2rem;padding:0 .3125rem; border-bottom:solid 1px #ddd;}
 .top_xl .pd_li{overflow:hidden; padding:0 0 0 .3125rem;border-bottom:1px solid #F3F3F3;}
@@ -70,20 +70,22 @@ img.lazy{background:url(../image/no_img.svg) no-repeat center center #F0F5F9; ba
 /*二级页面头部信息及返回上一页*/
 .action-bar-box{
     width: 100%;
-    height: 1.2rem;
+    height: 1.2222rem;
+    position: relative;
 }
 .action-bar{
     position: fixed;
     background: #fff;
     width: 100%;
-    height: 1.2rem;
-    line-height: 1.2rem;
+    height: 1.2222rem;
+    line-height: 1.2222rem;
     text-align: center;
     font-size: 0.5rem;
     color: #808080;
     font-weight: bold;
     border-bottom: solid 1px #E9E9E9;
     z-index: 100;
+    box-sizing: border-box;
 }
 .action-back{
     position: absolute;
@@ -141,7 +143,7 @@ img.lazy{background:url(../image/no_img.svg) no-repeat center center #F0F5F9; ba
 .title_word{color:#FFF; font-size:.4375rem; white-space:nowrap; height:1.1875rem; overflow:hidden; position:relative;border-left:1px solid #0D60AA;}
 .title_word a{color:#FFF; font-size:.5rem; line-height:1.1875rem; border-right:1px solid #0D60AA;  padding:0 .3205rem; display:inline-block;}
 .title_word strong{color:#FFF; font-size:.5rem; line-height:1.1875rem; border-right:1px solid #0D60AA; padding:0 .3205rem; display:inline-block; font-weight:normal;}
-.side_menu_btn{width:.8125rem; height:.625rem; background:url(../image/men_ico.png) no-repeat center center; background-size:76% 72%; position:absolute; right:.2rem; top:.283rem;}
+.side_menu_btn{width:.8125rem; height:.625rem; background:url(../image/top_men.png) no-repeat center center; background-size: 100% 72%; position:absolute; right:.2rem; top:.283rem;}
 .zhj a {background:url(../image/zhjbk.png) no-repeat right 6px;background-size:0.25rem auto;}
 /* 导航下拉 */
 /*.relative{position:relative;}*/
@@ -226,15 +228,14 @@ img.lazy{background:url(../image/no_img.svg) no-repeat center center #F0F5F9; ba
 .news_slide_box{position:relative; overflow:hidden;}
 .news_change_b{background-color:#FFF; margin-top:.15rem; border-bottom:1px solid #EAEFF7;}
 .news_list_cg .view_more{color:#2a87f0; line-height:.85rem;text-align:center; display:block; padding:.2812rem 0; font-size:.4375rem;}
-.news_change_t{background-color:#FFF; height:1rem; border-bottom:1px solid #E7E7E7; overflow:hidden;padding: 0.26rem 0.3rem 0 0.3rem;box-sizing: border-box;}
+.news_change_t{background-color:#FFF; height:1rem; border-bottom:1px solid #E7E7E7;padding: 0.26rem 0.3rem 0 0.3rem;box-sizing: border-box; overflow: hidden;}
 .news_change_t ul.fixed{position:fixed; top:0; width:100%; z-index:1001; background-color:#f7f7f7; border-bottom:1px solid #E7E7E7;}
 .news_change_t li.yw{text-align:left;}
 .news_change_t li.yw a{color:#222;}
-.news_change_t li{font-size:.39rem; float:left; width:20%;text-align:center;height: 0.75rem;position:relative;font-weight: 600;color: #333;position: relative;}
+.news_change_t li{font-size:.39rem; float:left; width:20%;text-align:center;height: 0.75rem;position:relative;font-weight: 600;color: #333;box-sizing: border-box;}
 .news_change_t li a{color:#333; display:block;line-height: 0.75rem;}
-.main_news_hot{position: absolute;top: 0;left: 0;width: 0.54rem;}
-.news_change_t li.on{background-color: #0f6dc5;}
-.news_change_t li.on a{color:#fff;}
+.news_change_t li.on{border-bottom: 3px solid #289eec;}
+.news_change_t li.on a{color:#289eec;}
 .news_li_list{padding:.406rem 0; border-bottom:1px solid #E7E7E7; font-size:.4687rem;  margin:0 .35rem; overflow:hidden;}
 .news_li_list img{max-width:100%;}
 .fixed_top{position: fixed;top: 0.984rem;width: 100%;z-index: 100;}

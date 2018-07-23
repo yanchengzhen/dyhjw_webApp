@@ -10,8 +10,9 @@ body {
 .dk_top_tab_item:last-child{border: 1px solid #fff;border-top-right-radius: 0.12rem;border-bottom-right-radius: 0.12rem;}
 .dk_top_tab .cur{border-color: #2e9ffb;color: #2e9ffb;}
 /*名家 机构 主体盒子*/
-.top_tab_content_box{width:100%;height:5.6rem;position: relative;margin-bottom: 0.2rem;}
-.top_tab_content{position: absolute;width:10rem;height:5.6rem;top:0;left:0;visibility: hidden;}
+.top_tab_content_box{width:100%;position: absolute;visibility: hidden}
+.top_tab_content_visible{visibility: visible;}
+.top_tab_content{width:10rem;height:5.6rem;top:0;left:0;margin-bottom: 0.2rem;}
 .tab_content_header{height: 0.85rem;background-color: #efefef;}
 .tab_content_header_item{position: relative;height: 0.85rem;line-height: 0.85rem;width: 3rem;font-size: 0.4rem;text-align: center;}
 .main_tab_show .main_tab_active {font-weight: bold}

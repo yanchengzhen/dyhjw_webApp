@@ -185,6 +185,7 @@
   text-align: center;
   bottom: 0;
   overflow: hidden;
+  left: 0px;
 }
 .swiper-container-horizontal>.leftTabBox-pagination {
   bottom: 0;
